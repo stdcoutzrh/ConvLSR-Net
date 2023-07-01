@@ -36,61 +36,46 @@ Please follow the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/
 
 "-c" means the path of the config, use different **config** to train different models.
 
-```
+```shell
 python train_supervision.py -c ./config/isaid/lsrformer.py
 ```
 
-```
+```shell
 python train_supervision_dp.py -c ./config/potsdam/lsrformer.py
 ```
 
-```
+```shell
 python train_supervision_dp.py -c ./config/vahingen/lsrformer.py
 ```
 
-```
+```shell
 python train_supervision_dp.py -c ./config/loveda/lsrformer.py
 ```
 
 ## Testing
 
 **iSAID** 
-```
+```shell
 python test_isaid.py -c ./config/isaid/lsrformer.py -o ~/fig_results/isaid/lsrformer_isaid/  -t "d4"
 ```
 
 **Vaihingen**
-```
+```shell
 python test_vaihingen.py -c ./config/vaihingen/lsrformer.py -o ~/fig_results/lsrformer_vaihingen/ --rgb -t "d4"
 ```
 
 **Potsdam**
-```
+```shell
 python test_potsdam.py -c ./config/potsdam/lsrformer.py -o ~/fig_results/lsrformer_potsdam/ --rgb -t "d4"
 ```
 
 **LoveDA** ([Online Testing](https://codalab.lisn.upsaclay.fr/competitions/421))
 
-my results: [https://codalab.lisn.upsaclay.fr/my/competition/submission/340641/detailed_results/](https://codalab.lisn.upsaclay.fr/my/competition/submission/340641/detailed_results/)
+my results: [LoveDA Test Results](https://codalab.lisn.upsaclay.fr/my/competition/submission/340641/detailed_results/)
 
-```
+```shell
 python test_loveda.py -c ./config/loveda/lsrformer.py -o ~/fig_results/lsrformer_loveda --rgb -t "d4"
 ```
-
-
-<div style="display:none">
-## Citation
-
-If you find this project useful in your research, please consider citing：
-
-- [UNetFormer: A UNet-like transformer for efficient semantic segmentation of remote sensing urban scene imagery](https://authors.elsevier.com/a/1fIji3I9x1j9Fs)
-- [A Novel Transformer Based Semantic Segmentation Scheme for Fine-Resolution Remote Sensing Images](https://ieeexplore.ieee.org/abstract/document/9681903) 
-- [Transformer Meets Convolution: A Bilateral Awareness Network for Semantic Segmentation of Very Fine Resolution Urban Scene Images](https://www.mdpi.com/2072-4292/13/16/3065)
-- [ABCNet: Attentive Bilateral Contextual Network for Efficient Semantic Segmentation of Fine-Resolution Remote Sensing Images](https://www.sciencedirect.com/science/article/pii/S0924271621002379)
-- [Multiattention network for semantic segmentation of fine-resolution remote sensing images](https://ieeexplore.ieee.org/abstract/document/9487010)
-- [A2-FPN for semantic segmentation of fine-resolution remotely sensed images](https://www.tandfonline.com/doi/full/10.1080/01431161.2022.2030071)
-
-</div>
 
 
 ## Acknowledgement
