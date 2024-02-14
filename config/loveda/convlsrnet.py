@@ -17,7 +17,7 @@ accumulate_n = 1
 num_classes = len(CLASSES)
 classes = CLASSES
 
-weights_name = "0227-lsrformer-train+val-last-epoch30"
+weights_name = "0227-convlsrnet-train+val-last-epoch30"
 weights_path = "/home/zrh/datasets/semantic/loveda/log_loveda/{}".format(weights_name)
 test_weights_name =  weights_name
 log_name = "/home/zrh/datasets/semantic/loveda/log_loveda/{}".format(weights_name)
@@ -32,7 +32,7 @@ pretrained_ckpt_path = None
 resume_ckpt_path = None
 
 #  define the network
-from geoseg.lsrformer.convlsrnet import Model
+from geoseg.model.convlsrnet import Model
 net = Model(n_class=num_classes)
 
 # define the loss
