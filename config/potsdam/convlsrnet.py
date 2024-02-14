@@ -7,8 +7,8 @@ from catalyst import utils
 # training hparam
 max_epoch = 105
 ignore_index = len(CLASSES)
-train_batch_size = 4
-val_batch_size = 1
+train_batch_size = 8
+val_batch_size = 8
 lr = 6e-4
 weight_decay = 2.5e-4
 backbone_lr = 6e-5
