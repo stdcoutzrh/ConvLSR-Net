@@ -9,7 +9,7 @@ This is the code for our paper:
 We repeated the experiment with 5 different random seeds. The average and best results of the 5 repetitions are as follows:
 
 |    Method     |  Dataset  |  mIoU (Average) | mIoU (Best) |
-|:-------------:|:---------:|:-----:|:-----:|------:|
+|:-------------:|:---------:|:-----:|:-----:|
 |  ConvLSR-Net   |   iSAID   |  70.8±0.11  | 70.89 |
 |  ConvLSR-Net   | Vaihingen |  84.56±0.06 | 84.64 |
 |  ConvLSR-Net   |  Potsdam  |  87.80±0.08 | 87.91 |
