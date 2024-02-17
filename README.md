@@ -20,9 +20,9 @@ Due to some random operations in the training stage, reproduced results (run onc
 
 ## Data Preprocessing
 
-Please follw the [GeoSeg](https://github.com/WangLibo1995/GeoSeg) to prepocess the LoveDA, Potsdam and Vaihingen dataset.
+Please follw the [GeoSeg](https://github.com/WangLibo1995/GeoSeg) to preprocess the LoveDA, Potsdam and Vaihingen dataset.
 
-Please follow the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#isaid) to prepocess the iSAID dataset. 
+Please follow the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/blob/main/docs/en/user_guides/2_dataset_prepare.md#isaid) to preprocess the iSAID dataset. 
 
 
 
