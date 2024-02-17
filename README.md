@@ -1,7 +1,7 @@
 ## ConvLSR-Net
 This is the code for our paper:
 
-* [LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation](https://ieeexplore.ieee.org/document/10438484) in IEEE Transactions on Geoscience and Remote Sensing 2024.]
+* [LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation](https://ieeexplore.ieee.org/document/10438484) in IEEE Transactions on Geoscience and Remote Sensing 2024.
 
   
 ## Results
