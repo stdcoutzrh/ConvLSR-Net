@@ -1,7 +1,7 @@
 ## ConvLSR-Net
 This is the code for our paper:
 
-* [R. Zhang, Q. Zhang and G. Zhang, "LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation" in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3366709.](https://ieeexplore.ieee.org/document/10438484)
+* ["LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation" in IEEE TGRS, doi: 10.1109/TGRS.2024.3366709.](https://ieeexplore.ieee.org/document/10438484)
 
   
 ## Results
