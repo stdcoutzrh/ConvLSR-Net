@@ -76,17 +76,18 @@ python test_loveda.py -c ./config/loveda/convlsrnet.py -o ~/fig_results/convlsrn
 
 If you find this project useful in your research, please consider citing our papers：
 
-* R. Zhang, Q. Zhang and G. Zhang, "LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation," in IEEE Transactions on Geoscience and Remote Sensing, doi: 10.1109/TGRS.2024.3366709.
+* R. Zhang, Q. Zhang and G. Zhang, "LSRFormer: Efficient Transformer Supply Convolutional Neural Networks With Global Information for Aerial Image Segmentation," in IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-13, 2024, Art no. 5610713, doi: 10.1109/TGRS.2024.3366709.
+
 
 ```shell
 @ARTICLE{10438484,
   author={Zhang, Renhe and Zhang, Qian and Zhang, Guixu},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={LSRFormer: Efficient Transformer Supply Convolutional Neural Networks with Global Information for Aerial Image Segmentation}, 
+  title={LSRFormer: Efficient Transformer Supply Convolutional Neural Networks With Global Information for Aerial Image Segmentation}, 
   year={2024},
-  volume={},
+  volume={62},
   number={},
-  pages={1-1},
+  pages={1-13},
   doi={10.1109/TGRS.2024.3366709}}
 ```
 
